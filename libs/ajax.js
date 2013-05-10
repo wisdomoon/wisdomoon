@@ -156,7 +156,7 @@
             encode = options.encode || 'UTF-8',
             timeout = options.timeout || 0,
             credential = options.credential,
-            data = options.data||{},
+            data = options.data,
             scope = options.scope,
             success = options.success || noop,
             failure = options.failure || noop,
